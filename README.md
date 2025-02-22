@@ -17,6 +17,7 @@ and reduce.
 This example demonstrates the creation of a Car class, where properties like brand, model, and year are defined, and methods are
 used to access and manipulate them.
 
+```
 class Car {
     public brand: string = "Toyota";
     public model: string = "Corolla";
@@ -29,12 +30,12 @@ class Car {
 
 const myCar = new Car();
 myCar.displayDetail(); // Output: Car: Toyota Corolla, Year: 2024
-
+```
 
 2. Encapsulation
 This example illustrates how to use encapsulation to restrict access to class properties, providing a clear interface
 for interacting with them.
-
+```
 class Car {
     private brand: string = "Toyota";
     private model: string = "Corolla";
@@ -47,11 +48,11 @@ class Car {
 
 const myCar = new Car();
 myCar.displayDetail(); // Output: Car: Toyota Corolla, Year: 2024
-
+```
 
 3. Interface Usage
 Interfaces help in defining the structure of objects, ensuring consistency across classes that implement them.
-
+```
 interface carInterface {
     brand: string;
     model: string;
@@ -71,11 +72,11 @@ class Car implements carInterface {
 
 const myCar = new Car();
 myCar.displayDetail(); // Output: Car: Toyota Corolla, Year: 2024
-
+```
 
 4. Abstract Class
 Abstract classes define a blueprint for subclasses and can have both implemented and unimplemented methods.
-
+```
 abstract class CarDesign {
     protected model: string = 'Corolla';
     year: number = 2024;
@@ -90,7 +91,7 @@ class Car extends CarDesign {
 
 const myCar = new Car();
 myCar.displayDetail(); // Output: Corolla and 2024
-
+```
 
 
 🎯 Key Concepts Covered
