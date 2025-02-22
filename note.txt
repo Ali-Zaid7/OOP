@@ -1,0 +1,156 @@
+
+Here's a suggested roadmap for learning OOP (Object-Oriented Programming) in TypeScript:
+
+Phase 1: Fundamentals (1-2 weeks)
+
+1. Understand the basics of TypeScript:
+    - Variables, data types, functions, and control structures
+    - TypeScript syntax and features (e.g., interfaces, enums, generics)
+2. Learn OOP concepts:
+    - Classes, objects, inheritance, polymorphism, encapsulation, and abstraction
+    - Understand how OOP principles apply to real-world scenarios
+
+Phase 2: Classes and Objects (2-3 weeks)
+
+1. Classes and constructors:
+    - Define classes and constructors in TypeScript
+    - Understand how to create objects from classes
+2. Properties and methods:
+    - Learn about class properties and methods
+    - Understand how to access and modify properties, and call methods
+3. Inheritance and polymorphism:
+    - Understand how to extend classes using inheritance
+    - Learn about method overriding and polymorphism
+
+Phase 3: Advanced OOP Concepts (2-3 weeks)
+
+1. Encapsulation and abstraction:
+    - Understand how to hide implementation details using encapsulation
+    - Learn about abstraction and how to apply it in TypeScript
+2. Interfaces and abstract classes:
+    - Learn about interfaces and abstract classes in TypeScript
+    - Understand how to use them to define contracts and abstract base classes
+3. Composition and dependency injection:
+    - Understand how to compose objects from other objects
+    - Learn about dependency injection and how to apply it in TypeScript
+
+Phase 4: Practice and Projects (4-6 weeks)
+
+1. Apply OOP concepts to real-world projects:
+    - Start building projects that demonstrate OOP principles
+    - Practice coding and experimenting with different OOP concepts
+2. Solve problems and exercises:
+    - Use online resources (e.g., LeetCode, HackerRank) to practice solving problems
+    - Reinforce your understanding of OOP concepts
+
+Additional Tips
+
+- Read books and articles: Supplement your learning with books and articles on OOP and TypeScript
+- Join online communities: Participate in online forums (e.g., Reddit's r/typescript) to ask questions and learn from others
+- Work on projects: Apply OOP concepts to real-world projects to reinforce your learning
+
+Remember, learning OOP in TypeScript is a continuous process. Take your time, practice regularly, and you'll become proficient in no time!//OBJECT ORIENTED PROGRAMMING
+OOP is a programming paradigm that reolves around the concepts of objects and classes.Its a way of designing
+and organizing code that simulates real world objects system.=
+
+//Benefits
+Modularity:code is organized into reusable classes
+Reusability:Once created code used in other programs
+Scalabilty:Easy to extend and maintain
+
+
+//OBJECT
+an obect is an instance of class which represents a collection of key-value pairs also known as
+properties/attributes .Objects are used to store and manipulate data in a structured Way .
+
+//CLASS
+class is a blueprint or template that defines structure and behavior of object. A class defines 
+properties (data members) and methods (functions) that can be used to manipulate and interact
+with objects created from the class.
+
+//Key concepts of OOP
+Classes and objects
+Properties and methods
+Encapsulation
+Ebstraction
+Inheritance
+Polymorphism
+
+//Four Pillars of OOP
+Encapsulation
+Ebstraction
+Inheritance
+Polymorphism
+
+Object:Instance of class
+Class:Blueprint of object
+Encapsulation:Protecting our data
+Polymorphism:Different behavior at different instance
+Abstraction:Hiding our irrelvant data
+Inheritance: One property of object is acquiring to another object
+
+//Enums
+Enums in TypeScript are a way to define a set of named values. They allow you to define a set of
+ named constants, making your code more readable and maintainable.
+
+//REAL LIFE EXAMPLES
+
+ Polymorphism:(Barsati mendak)
+                 A child behave as student in school
+                 Behave as passenger in bus
+                 In home behaves like a son 
+                 In shipping mall behaves as customer 
+
+
+Abstraction:
+                 an ATM machine Check balance
+                 Withdraw cash
+                 Deposit cash
+                 Print ball
+It performs a lot of processes the machine all the processes from us except taking input and extracting output
+
+
+Inheritance(Inherits-->morrosiat)
+           Some properties of moms inherits to his daughter
+
+Encapsulation(Storage box):-
+           An school bag stores our books , pens ,etc
+
+           
+Properties: Characteristics/attributes of an object.
+Method: Actions and behavior that object can perform.
+
+//Intersection
+An intersection is a way to combine multiple types into one. It creates a new type that includes all the properties
+and methods of existing types.
+
+Pattern:
+     type IntersectionType = Type1 & Type2.....TypeN
+
+//Encapsulation
+is the bundling of data(properties) and methods that operate on data into a single unit 
+or class
+
+Purpose:Protects data to restricting access to it.
+
+//Implementing class:-
+//In typescript interfaces do not directly support access modifier like public,private
+//or protected because interfaces are meant to define the shape or contract of an 
+//object, not its implementaion details. Access modifiers are part of the implementation,
+//and interfaces are more about the structure of data. 
+
+
+Abstraction:-(an ATM machine)
+Abstract class cannot be instantaniated and are meant to be subclassed.
+
+Purpose:Provied a common base class with some implemented functionality
+
+
+
+Object context method
+:When a method is called on an object,this refers to the object.
+
+
+// //The new Keyword
+// The new keyword is used to create a new instance of an object that is defined by a constructor
+// function when new is used

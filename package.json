@@ -1,0 +1,15 @@
+{
+  "name": "object-orientes-programming",
+  "version": "1.0.0",
+  "main": "ject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.4.1"
+  }
+}
